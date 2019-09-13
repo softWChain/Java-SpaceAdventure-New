@@ -1,0 +1,63 @@
+package pack1;
+
+import java.util.Iterator;
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class atesTasCarpýsma {
+	
+	Timer timer;
+	Ates ates;
+	private int deger3=0;
+	
+	public atesTasCarpýsma(){
+		
+		timer = new Timer();
+		
+		timer.scheduleAtFixedRate(new TimerTask() {
+			
+			@Override
+			public void run() {
+				Iterator<Ates> it = Label.atesler.iterator();
+				
+				while(it.hasNext()){
+					Ates ates = it.next();
+					for(int i=0;i<7;i++){
+						
+						try{
+							if(ates.getAtesX() >= Label.tasX[i] -30 && ates.getAtesX() <= Label.tasX[i]+40&&
+									ates.getAtesY() >=Label.tasY[i]-30 && ates.getAtesY() <= Label.tasY[i] +30){
+								System.out.println("Veys");
+								Label.carpmaDegeri++;
+								Label.yeniBoolean = true;
+
+								Label.astreoidExplosionBoolean = true;
+								
+								Label.geciciX = Label.tasX[i];
+								Label.geciciY = Label.tasY[i];
+								
+								
+								if(Label.carpmaDegeri >= 2){
+									Label.tasY[i]=-100;
+									Label.carpmaDegeri=0;
+								}
+								
+								
+			
+							}
+						}
+						catch(Exception e){
+							System.out.println("NAYNN");
+						}
+						
+					}
+					
+				}
+				
+			}
+		}, 0, 15);
+		
+		
+	}
+	
+}

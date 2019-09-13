@@ -1,0 +1,40 @@
+package pack1;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class AstreoidBulletExplosion {
+	
+	Timer timer;
+	private int temp=0;
+	
+	public AstreoidBulletExplosion(){
+		
+		timer = new Timer();
+		
+		timer.scheduleAtFixedRate(new TimerTask() {
+			
+			@Override
+			public void run() {
+				
+				
+				
+				
+					
+					if(temp<17){
+						Label.astreoidExplosionAnimationBuyuk = temp;
+						temp++;
+					}
+					if(temp==17){
+						Label.astreoidExplosionAnimationBuyuk =9;
+						temp=0;
+						Label.astreoideCarpmaBuyuk=false;
+					}
+				
+				
+				
+			}
+		}, 0, 50);
+	}
+
+}

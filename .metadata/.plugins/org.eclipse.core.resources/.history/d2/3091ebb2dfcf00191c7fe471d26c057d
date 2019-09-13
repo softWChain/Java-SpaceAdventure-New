@@ -1,0 +1,48 @@
+package pack1;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class atesTasCarpýsma {
+	
+	Timer timer;
+	Ates ates;
+	
+	public atesTasCarpýsma(){
+		
+		timer = new Timer();
+		
+		timer.scheduleAtFixedRate(new TimerTask() {
+			
+			@Override
+			public void run() {
+				for(int i=0;i<7;i++){
+					
+
+					try{
+
+						if(Label.atesBoolean == true){
+							
+							if(ates.getAtesX() > 50){
+								
+								System.out.println("Veys");
+								Label.tasY[i] = -100;
+							}
+						}
+						
+					}
+						catch(NullPointerException e){
+							e.printStackTrace();
+					}
+						
+						
+					
+				}
+				
+			}
+		}, 0, 15);
+		
+		
+	}
+	
+}

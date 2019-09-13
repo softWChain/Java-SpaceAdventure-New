@@ -1,0 +1,25 @@
+package pack1;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class astreoidExplosion1 {
+	
+	Timer timer;
+	
+	public astreoidExplosion1(){
+		
+		timer = new Timer();
+		
+		timer.scheduleAtFixedRate(new TimerTask() {
+			
+			@Override
+			public void run() {
+				
+				
+			}
+		}, 0, 15);
+		
+	}
+
+}

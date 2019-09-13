@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="pack1.Var"/>
+<fullyQualifiedTypeName name="java.awt.RenderingHints"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="pack1.Background"/>
+<fullyQualifiedTypeName name="pack1.rocketMovement"/>
+<fullyQualifiedTypeName name="java.awt.event.KeyListener"/>
+<fullyQualifiedTypeName name="pack1.KeyHandler"/>
+<fullyQualifiedTypeName name="pack1.tasMovement"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="pack1.Ates"/>
+<fullyQualifiedTypeName name="pack1.atesHareketi"/>
+<fullyQualifiedTypeName name="pack1.atesTasCarpısma"/>
+<fullyQualifiedTypeName name="java.util.ConcurrentModificationException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+<fullyQualifiedTypeName name="pack1.runClass"/>
+<fullyQualifiedTypeName name="pack1.Astreoid"/>
+<fullyQualifiedTypeName name="pack1.astreoidExplosion1"/>
+<fullyQualifiedTypeName name="java.awt.Image"/>
+<fullyQualifiedTypeName name="java.awt.Toolkit"/>
+<fullyQualifiedTypeName name="pack1.Label"/>
+<fullyQualifiedTypeName name="pack1.AstreoidBulletCarpma"/>
+<fullyQualifiedTypeName name="pack1.AstreoidBulletExplosion"/>
+<fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.util.Timer"/>
+<fullyQualifiedTypeName name="java.util.TimerTask"/>
+</qualifiedTypeNameHistroy>
